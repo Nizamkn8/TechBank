@@ -1,0 +1,19 @@
+{
+  "blog": [
+    {
+      "name": "Smart AI Chatbot",
+      "description": "Enhance customer engagement with personalized, AI-driven interactions.",
+      "logo": "/blog/blog1.png"
+    },
+    {
+      "name": "Smart AI Chatbot",
+      "description": "Enhance customer engagement with personalized, AI-driven interactions.",
+      "logo": "/blog/blog2.png"
+    },
+    {
+      "name": "Smart AI Chatbot",
+      "description": "Enhance customer engagement with personalized, AI-driven interactions.",
+      "logo": "/blog/blog3.png"
+    }
+  ]
+}

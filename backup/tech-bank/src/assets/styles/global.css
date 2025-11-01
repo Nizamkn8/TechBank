@@ -1,0 +1,11 @@
+:root {
+  --container-width: 1920px;
+  --container-padding: 20px;
+}
+
+.container {
+  max-width: var(--container-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}

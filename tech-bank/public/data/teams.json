@@ -1,0 +1,41 @@
+{
+  "teams": [
+    {
+      "name": "KOCHI BLUE TIGERS",
+      "description": "A dynamic cricket team redefining the game with passion and power.",
+      "logo": "/connected-brands/tiger1.png",
+      "bgLogo": "/team-bg/kochi-blue-tigers-bg.png",
+      "socials": [
+        { "icon": "/social-media-icons/linkedin.png", "url": "https://linkedin.com/kochi" },
+        { "icon": "/social-media-icons/instagram.png", "url": "https://instagram.com/kochi" },
+        { "icon": "/social-media-icons/twitter.png", "url": "https://x.com/kochi" },
+        { "icon": "/social-media-icons/youtube.png", "url": "https://youtube.com/kochi" }
+      ]
+    },
+    {
+      "name": "BLUE LIONS",
+      "description": "A creative product ecosystem delivering bold stories to life.",
+      "logo": "/connected-brands/tiger2.png",
+      "bgLogo": "/team-bg/blue-lions-bg.png",
+      "socials": [
+        { "icon": "/social-media-icons/web.png", "url": "#" },
+        { "icon": "/social-media-icons/linkedin.png", "url": "#" },
+        { "icon": "/social-media-icons/instagram.png", "url": "#" },
+        { "icon": "/social-media-icons/twitter.png", "url": "#" },
+        { "icon": "/social-media-icons/youtube.png", "url": "#" }
+      ]
+    },
+    {
+      "name": "BLUE LIONS",
+      "description": "A creative product ecosystem delivering bold stories to life.",
+      "logo": "/connected-brands/tiger3.png",
+      "bgLogo": "/team-bg/blue-lions-bg.png",
+      "socials": [
+        { "icon": "/social-media-icons/linkedin.png", "url": "#" },
+        { "icon": "/social-media-icons/instagram.png", "url": "#" },
+        { "icon": "/social-media-icons/twitter.png", "url": "#" },
+        { "icon": "/social-media-icons/youtube.png", "url": "#" }
+      ]
+    }
+  ]
+}

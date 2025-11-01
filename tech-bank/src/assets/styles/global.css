@@ -1,0 +1,17 @@
+:root {
+  --container-width: 1920px;
+  --container-padding: 20px;
+  --section-padding: 100px
+}
+
+.container {
+  max-width: var(--container-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.section-padding {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
