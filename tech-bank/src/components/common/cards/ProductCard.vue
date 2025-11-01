@@ -14,12 +14,12 @@ const props = defineProps({
 
 <template>
   <div
-    class="border border-gray-600 rounded-3xl p-4 w-[50%] bg-black/40 backdrop-blur-lg hover:border-white transition duration-300"
+    class="border border-gray-600 rounded-3xl p-4 w-full  bg-black/40 backdrop-blur-lg hover:border-white transition duration-300"
   >
     <div class="relative rounded-2xl overflow-hidden ">
       <img
         :src="image"
-        class="rounded-2xl w-full object-cover max-w-[566px] max-h-[315px] h-[315px]"
+        class="rounded-2xl w-full object-cover max-w-full md:max-w-[566px] max-h-[315px] h-[315px]"
       />
 
       <!-- Icon Badge -->

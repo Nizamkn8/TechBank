@@ -4,7 +4,7 @@ import StatsCounter from "./StatsCounter.vue";
 </script>
 
 <template>
-  <section class="container w-full bg-black text-white py-20 section-padding">
+  <section class="container w-full bg-black text-white section-padding">
     <div class="max-w-[759px] mx-auto text-center px-4">
       <!-- Title -->
       <SectionTitle text="ABOUT" />

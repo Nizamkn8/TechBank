@@ -1,17 +1,17 @@
 <script setup>
-import Home from "./pages/Home.vue";
 import Header from "./components/layout/Header.vue";
-components: {
-  Home;
-}
+import Footer from "./components/layout/Footer.vue";
 </script>
 
 <template>
-  <div>
+  <div class="bg-black min-h-screen">
     <Header />
-    <Home />
+
+    <!-- Page content will load here -->
+    <router-view />
+
+    <Footer />
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

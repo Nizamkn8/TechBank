@@ -5,7 +5,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="relative border border-gray-600  p-6 text-white rounded-xl shadow-lg hover:shadow-2xl transition group overflow-hidden bg-black">
+  <div class="border border-gray-600  p-6 text-white rounded-xl shadow-lg hover:shadow-2xl transition group bg-black">
 
     <img :src="team.bgLogo" class="absolute right-0 top-0 w-40 opacity-10 group-hover:opacity-20 transition -z-10" />
 

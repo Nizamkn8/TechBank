@@ -1,7 +1,18 @@
+@font-face {
+  font-family: 'Nineta';
+  src: url('/src/assets/fonts/Ninetea-Regular.eot') format('woff2'),
+       url('/src/assets/fonts/Nineta-Regular.woff') format('woff'),
+       url('/src/assets/fonts/Nineta-Regular.ttf') format('truetype'),
+       url('/src/assets/fonts/Nineta-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
-  --container-width: 1920px;
-  --container-padding: 20px;
-  --section-padding: 100px
+  --container-width: 1287px;
+  --container-padding: 15px;
+  --section-padding: 100px;
+  font-family: "Nineta", sans-serif;
 }
 
 .container {
