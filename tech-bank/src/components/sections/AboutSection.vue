@@ -10,7 +10,7 @@ import StatsCounter from "./StatsCounter.vue";
       <SectionTitle text="ABOUT" />
 
       <!-- Description -->
-      <p class="text-gray-300 text-sm leading-relaxed max-w-2xl mx-auto mb-12">
+      <p class="text-[#C0C0C0] lg:text-[18px] text-[14px] leading-[1.3] mx-auto lg:mb-[29px] mb-[20px]">
         TechBank is a blockchain product company creating decentralized tools like TechBank,
         Dbank, and Dwallet to simplify digital finance. We empower users with secure,
         transparent, and user-friendly solutions for managing assets in the Web3 world.

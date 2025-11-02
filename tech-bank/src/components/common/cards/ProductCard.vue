@@ -1,4 +1,6 @@
 <script setup>
+import GradButton from '../buttons/GradButton.vue';
+
 const props = defineProps({
   image: String,
   logo: String,
@@ -14,37 +16,32 @@ const props = defineProps({
 
 <template>
   <div
-    class="border border-gray-600 rounded-3xl p-4 w-full  bg-black/40 backdrop-blur-lg hover:border-white transition duration-300"
-  >
-    <div class="relative rounded-2xl overflow-hidden ">
-      <img
-        :src="image"
-        class="rounded-2xl w-full object-cover max-w-full md:max-w-[566px] max-h-[315px] h-[315px]"
-      />
+    class="border border-[#D9D9D9] rounded-3xl p-[5px] lg:pb-10 pb-[21px] w-full  bg-black/40 backdrop-blur-lg hover:border-white transition duration-300">
+    <div class="relative overflow-hidden rounded-tl-[20px] rounded-tr-[20px]">
+      <img :src="image"
+        class=" w-full object-cover max-w-full md:max-w-[566px] max-h-[315px] lg:h-[315px] h-[198px]" />
 
       <!-- Icon Badge -->
-      <div
-        class="absolute top-3 left-3 bg-white/20 backdrop-blur-md rounded-xl p-2"
-      >
-        <img :src="logo" class="w-8 h-8" />
+      <div class="absolute bottom-[11px] left-[15px]">
+        <img :src="logo" class="lg:w-[53px] lg:h-[58px] h-[37px] w-[37px] object-contain"  />
       </div>
     </div>
 
     <!-- Title & Text -->
-    <div class="mt-4 text-white">
-      <h3 class="text-2xl font-bold mb-1 tracking-widest">{{ title }}</h3>
-      <p class="text-sm opacity-80 mb-4">
-        {{ desc }}
-      </p>
+    <div class="mt-1 lg:px-[27px] lg:p-0 px-[17px] text-white flex gap-3.5 items-center justify-between">
+      <div class="">
+        <h3 class="lg:text-[29px] text-[18px] leading-[2.8095] font-nyxerin font-normal">{{ title}}</h3>
+        <p class="lg:text-[14px] text-[10px]">
+          {{ desc }}
+        </p>
 
-      <a
-        :href="link"
-        target="_blank"
-        class="inline-flex items-center gap-2 bg-linear-to-r from-purple-500 to-pink-500 text-white font-medium px-6 py-2 rounded-full"
-      >
-        {{ buttonText }}
-        <span>↗</span>
-      </a>
+      </div>
+      <!-- <a :href="link" target="_blank"
+          class="inline-flex h-fit items-center gap-3.5 bg-linear-to-r from-purple-500 to-pink-500 text-[20px] text-white font-medium pl-[58px] pr-[43px] py-3.5 rounded-full">
+          {{ buttonText }}
+          <span class="w-5">↗</span>
+      </a> -->
+      <GradButton> View </GradButton>
     </div>
   </div>
 </template>

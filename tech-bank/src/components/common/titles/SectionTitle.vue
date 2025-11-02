@@ -21,8 +21,8 @@ const props = defineProps({
 
 <template>
   <div>
-    <span v-if="subText" :class="`${subTextSize} font-bold tracking-widest mb-2 text-white text-center block`"> {{ subText }}</span>
-    <h2 v-if="text" :class="`${size} font-bold tracking-widest mb-6 text-white text-center`">
+    <span v-if="subText" :class="`${subTextSize} font-bold text-[#BB83FF] lg:text-[18px] text-[14px] text-center block`"> {{ subText }}</span>
+    <h2 v-if="text" :class="`${size} lg:text-[32px] text-[24px] leading-[1.2] lg:mb-10 mb-[25px]  text-white text-center font-nyxerin `">
       {{ text }}
     </h2>
   </div>

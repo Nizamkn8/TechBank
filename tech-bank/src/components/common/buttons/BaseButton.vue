@@ -1,5 +1,10 @@
 <template>
-  <button class="btn" @click="$emit('click')">
+  <button class="btn cursor-pointer
+  rounded-[56px] py-[8.5px] px-[18.5px] bg-transparent
+  font-normal text-white border
+  border-white hover:opacity-[.85]
+  hover:bg-white hover:text-black transition duration-300
+  " @click="$emit('click')">
     <slot></slot>
   </button>
 </template>
@@ -7,21 +12,3 @@
 <script setup>
 
 </script>
-
-<style scoped>
-.btn {
-  background: transparent;
-  color: white;
-  padding: 8.5px 18.5px;
-  border-radius: 56px;
-  border: 1px solid #ffffff;
-  cursor: pointer;
-  font-weight: 600;
-  transition: 0.25s;
-  height: fit-content;
-}
-
-.btn:hover {
-  opacity: 0.85;
-}
-</style>

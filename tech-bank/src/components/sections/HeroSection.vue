@@ -2,22 +2,22 @@
 import HeroBg from "../../assets/img/Hero/hero-bg.png"
 import HeroSicker from "../../assets/img/Hero/hero-sticker.png"
 import HeroBgLogo from "../../assets/img/Hero/bg-logo.png"
-import BaseButton from "../common/buttons/BaseButton.vue";
+import GradButtonRound from "../common/buttons/GradButtonRound.vue";
 </script>
 
 <template>
-  <div class="hero-container container relative overflow-hidden ">
-    <div class="sd-card-shape px-[95px] py-[35px]">
+  <div class="hero-container container relative overflow-hidden">
+    <div class="sd-card-shape px-[95px] py-[35px] mt-[50px]">
       <div class="absolute white-gradient bottom-0 left-0 h-full w-full">
-        <img :src="HeroBg" alt="">
+        <img :src="HeroBg" alt="" class="w-full h-[800px]">
       </div>
-      <div class="hero-content relative">
-        <div class="flex gap-6  text-white max-w-[490px] ml-auto">
+      <div class="hero-content h-full relative">
+        <div class="gap-2 items-center text-white max-w-[510px] ml-auto hidden md:flex">
           <div class="hero-sticker shrink-0">
             <img :src="HeroSicker" class="w-[114px] h-[85px] object-contain"
               alt="">
           </div>
-          <div class="hero-desc text-[16px] ">
+          <div class="hero-desc text-[16px] text-[#bababa]">
             <p>At TechBank, we’re pioneering the technologies of tomorrow. From
               blockchain to AI, we’re building the digital landscape of the
               future,
@@ -27,19 +27,22 @@ import BaseButton from "../common/buttons/BaseButton.vue";
         <div class="center-logo  flex justify-center mt-12">
           <img :src="HeroBgLogo" alt="">
         </div>
-        <h1 class="text-[93px] fon">
-          Engineering the Future
-        </h1>
-        <div class="desc-box flex">
-          <span class="text-[16px]">
-            Empowering Businesses, Enabling Growth
-            TechBank’s Products for Success
-          </span>
-          <BaseButton>VIEW PRODUCTS</BaseButton>
+        <div class="flex flex-col absolute bottom-0 ">
+          <h1 class="xl:text-[93px] lg:text-[70px] md:text-[60px] sm:text-[40px] text-[30px] font-nyxerin leading-[1.0967] text-center">
+            Engineering the Future
+          </h1>
+          <div class="desc-box flex justify-center flex-col lg:flex-row gap-2.5 max-w-[580px] mx-auto items-center">
+            <span class="text-[16px] text-black ">
+              Empowering Businesses, Enabling Growth
+              TechBank’s Products for Success
+            </span>
+            <GradButtonRound>View Products</GradButtonRound>
+          </div>
         </div>
       </div>
-
-
+    </div>
+    <div class="scroll-title text-center text-white mt-3 text-[16px]">
+      SCROLL TO EXPOLORE
     </div>
   </div>
 </template>
@@ -51,6 +54,22 @@ import BaseButton from "../common/buttons/BaseButton.vue";
   border-radius: 50px;
   position: relative;
   background-size: cover;
+}
+
+.scroll-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-title::after {
+  content: "+";
+  margin-left: 40px;
+}
+
+.scroll-title::before {
+  content: "+";
+  margin-right: 40px;
 }
 
 /*

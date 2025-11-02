@@ -7,7 +7,7 @@ import TechCarousel from "../common/carousels/TechCarousel.vue";
   <section
     class="container w-full bg-black text-white py-20 section-padding overflow-hidden"
   >
-    <div class="text-center max-w-[1598px] mx-auto">
+    <div class="text-center max-w-[1598px] mx-auto overflow-hidden">
       <!-- Title -->
       <SectionTitle text="TECHNOLOGIES" />
       <!-- Forward carousel -->

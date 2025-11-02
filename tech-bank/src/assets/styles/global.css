@@ -1,18 +1,40 @@
+
+
 @font-face {
-  font-family: 'Nineta';
-  src: url('/src/assets/fonts/Ninetea-Regular.eot') format('woff2'),
-       url('/src/assets/fonts/Nineta-Regular.woff') format('woff'),
-       url('/src/assets/fonts/Nineta-Regular.ttf') format('truetype'),
-       url('/src/assets/fonts/Nineta-Regular.eot') format('embedded-opentype');
+  font-family: 'Ninetea';
+  src: url('../fonts/Ninetea-Regular.woff2') format('woff2'),
+       url('../fonts/Ninetea-Regular.woff') format('woff'),
+       url('../fonts/Ninetea-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Nyxerin';
+  src: url('../fonts/NYXERIN.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.font-ninetea {
+  font-family: "Ninetea", sans-serif;
+}
+
+.font-nyxerin {
+  font-family: "Nyxerin", sans-serif;
+}
+
+.spacing-top-100 {
+  --pading-top-100: 100px;
+  padding-top: var(--pading-top-100);
+}
+
 :root {
-  --container-width: 1287px;
-  --container-padding: 15px;
+  --container-width: 1440px;
+  --container-padding: 84px;
   --section-padding: 100px;
-  font-family: "Nineta", sans-serif;
+  font-family: "Ninetea", sans-serif;
 }
 
 .container {
@@ -25,4 +47,35 @@
 .section-padding {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
+}
+
+@media screen and (max-width: 1199px) {
+  :root {
+    --container-width: 990px;
+    --container-padding: 40px;
+    --section-padding: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --container-width: 990px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  :root {
+    --container-width: 700px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --container-width: 600px;
+    --container-padding: 25px;
+  }
+}
+
+@media screen and (max-width:576px) {
+  :root {}
 }

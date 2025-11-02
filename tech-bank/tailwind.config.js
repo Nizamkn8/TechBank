@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        nineta: ["Nineta", "sans-serif"], // 👈 custom font class
+        ninetea: ["Ninetea", "sans-serif"],
+        nyxerin: ["Nyxerin", "sans-serif"],
       },
     },
   },

@@ -28,16 +28,19 @@ const socialLinks = [
         <img :src="logo" alt="footer-logo" class="w-[200px] h-[51px]">
         <span>hi@techbank.com</span>
       </div>
-      <div class="footer-contents flex justify-between mb-10">
+      <div
+        class="footer-contents flex justify-between mb-10 md:flex-row flex-col gap-[30px]">
         <div class="footer-content-left">
-          <div class="footer-title text-[32px] mb-6">
-            <div>Engineering</div>
-            <div>the Future</div>
+          <div
+            class="footer-title lg:text-[32px] text-[24px] leading-[1.083333] mb-6">
+            <div class="font-nyxerin">Engineering</div>
+            <div class="font-nyxerin">the Future</div>
           </div>
           <BaseButton> Contact Us </BaseButton>
         </div>
-        <div class="footer-content-right flex gap-[87px]">
-          <ul class="flex flex-col gap-7">
+        <div
+          class="footer-content-right flex md:gap-[87px] gap-[30px] md:justify-items-normal justify-between">
+          <ul class="flex flex-col lg:gap-7 gap-[15px]">
             <li>Home</li>
             <li>Products</li>
             <li>Teams</li>
@@ -51,7 +54,7 @@ const socialLinks = [
           </div>
         </div>
       </div>
-      <div class="footer-bottom flex justify-between">
+      <div class="footer-bottom justify-between lg:flex hidden">
         <div class="footer-social-media">
           <SocialMedia :socials="socialLinks" />
         </div>
@@ -63,6 +66,20 @@ const socialLinks = [
           <span>Terms and Conditions</span>
         </div>
       </div>
+      <div class="footer-bottom flex justify-between lg:hidden flex-wrap">
+        <div class="text-[14px] footer-social-media flex flex-col justify-center w-full items-center text-center">
+          <div class=" border-b border-[#fbfdff] flex justify-center mb-3 pb-3  w-full">
+            <SocialMedia :socials="socialLinks" />
+          </div>
+          <div class=" border-b border-[#fbfdff] privacy-terms mb-3 pb-3  w-full">
+            <span>Privacy Policy</span>
+            <span>Terms and Conditions</span>
+          </div>
+          <div class=" mb-3 pb-3  w-full">
+            © 2025 Techbank
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 </template>
@@ -71,5 +88,12 @@ const socialLinks = [
 footer.site-footer {
   padding-top: 60px;
   padding-bottom: 210px;
+}
+
+@media screen and (max-width: 1199px) {
+  footer.site-footer {
+    padding-top: 40px;
+    padding-bottom: 100px;
+  }
 }
 </style>

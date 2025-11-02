@@ -12,7 +12,7 @@ import SectionTitle from "../common/titles/SectionTitle.vue";
 
     <SectionTitle text="PRODUCT" subText="Innovative" />
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center max-w-[1212px] mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-[38px] justify-center max-w-[1212px] mx-auto">
 
       <ProductCard
         :image="walletImg"

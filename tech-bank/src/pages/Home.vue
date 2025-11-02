@@ -8,7 +8,7 @@ import HeroSection from "../components/sections/HeroSection.vue";
 </script>
 
 <template>
-  <div class="home">
+  <div class="home spacing-top-100">
     <HeroSection />
     <AboutSection />
     <ProductSection />
