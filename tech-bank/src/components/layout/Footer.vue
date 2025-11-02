@@ -67,11 +67,14 @@ const socialLinks = [
         </div>
       </div>
       <div class="footer-bottom flex justify-between lg:hidden flex-wrap">
-        <div class="text-[14px] footer-social-media flex flex-col justify-center w-full items-center text-center">
-          <div class=" border-b border-[#fbfdff] flex justify-center mb-3 pb-3  w-full">
+        <div
+          class="text-[14px] footer-social-media flex flex-col justify-center w-full items-center text-center">
+          <div
+            class=" border-b border-[#fbfdff] flex justify-center mb-3 pb-3  w-full">
             <SocialMedia :socials="socialLinks" />
           </div>
-          <div class=" border-b border-[#fbfdff] privacy-terms mb-3 pb-3  w-full">
+          <div
+            class=" border-b border-[#fbfdff] privacy-terms mb-3 pb-3  w-full">
             <span>Privacy Policy</span>
             <span>Terms and Conditions</span>
           </div>
