@@ -31,7 +31,7 @@ import ContactImg from "../../assets/img/contact/contact-img.png"
       </div>
 
       <!-- contact form -->
-      <div class="lg:hidden">
+      <div class="">
         <ContactForm />
       </div>
     </div>
