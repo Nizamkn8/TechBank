@@ -1,3 +1,4 @@
+<!-- common social media icons -->
 <script setup>
 defineProps({
   socials: {

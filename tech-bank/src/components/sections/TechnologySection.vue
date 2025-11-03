@@ -1,3 +1,4 @@
+<!-- technology section with technolgy logos carousel -->
 <script setup>
 import SectionTitle from "../common/titles/SectionTitle.vue";
 import TechCarousel from "../common/carousels/TechCarousel.vue";

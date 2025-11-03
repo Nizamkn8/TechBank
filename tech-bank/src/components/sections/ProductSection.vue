@@ -1,3 +1,4 @@
+<!-- product card doesnt call api as its not a slider -->
 <script setup>
 import ProductCard from "../common/cards/ProductCard.vue";
 import walletImg from "../../assets/img/product-images/product-img-1.png";
@@ -12,23 +13,16 @@ import SectionTitle from "../common/titles/SectionTitle.vue";
 
     <SectionTitle text="PRODUCT" subText="Innovative" />
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-[38px] justify-center max-w-[1212px] mx-auto">
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 gap-[38px] justify-center max-w-[1212px] mx-auto">
 
-      <ProductCard
-        :image="walletImg"
-        :logo="walletLogo"
-        title="DWALLET"
+      <ProductCard :image="walletImg" :logo="walletLogo" title="DWALLET"
         desc="A secure, intuitive crypto wallet for managing your digital assets"
-        link="https://your-wallet-site.com"
-      />
+        link="https://your-wallet-site.com" />
 
-      <ProductCard
-        :image="bankImg"
-        :logo="bankLogo"
-        title="DBANK"
+      <ProductCard :image="bankImg" :logo="bankLogo" title="DBANK"
         desc="A secure staking platform for earning rewards on your digital assets"
-        link="https://your-bank-site.com"
-      />
+        link="https://your-bank-site.com" />
 
     </div>
   </section>

@@ -9,14 +9,14 @@ import StatsCounter from "./StatsCounter.vue";
       <!-- Title -->
       <SectionTitle text="ABOUT" />
 
-      <!-- Description -->
+      <!-- description -->
       <p class="text-[#C0C0C0] lg:text-[18px] text-[14px] leading-[1.3] mx-auto lg:mb-[29px] mb-[20px]">
         TechBank is a blockchain product company creating decentralized tools like TechBank,
         Dbank, and Dwallet to simplify digital finance. We empower users with secure,
         transparent, and user-friendly solutions for managing assets in the Web3 world.
       </p>
 
-      <!-- Stats component -->
+      <!-- statsus counter component -->
       <StatsCounter />
     </div>
   </section>

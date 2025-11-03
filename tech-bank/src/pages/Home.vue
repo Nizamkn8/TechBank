@@ -1,3 +1,4 @@
+<!-- home page -->
 <script setup>
 import AboutSection from "../components/sections/AboutSection.vue";
 import ProductSection from "../components/sections/ProductSection.vue"

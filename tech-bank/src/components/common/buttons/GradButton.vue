@@ -1,3 +1,4 @@
+<!-- button with gradient using normal arrow -->
 <template>
   <button class="grad-btn btn cursor-pointer inline-flex h-fit items-center lg:gap-3.5 gap-[9px]
          lg:text-[20px] text-[14px] text-white font-medium lg:pl-[58px]  pl-[35px] lg:pr-[43px] pr-[25px] lg:py-3.5 py-2

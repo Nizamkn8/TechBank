@@ -1,3 +1,4 @@
+<!-- technology section carousel with logos -->
 <script setup>
 import { ref, onMounted } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
@@ -15,6 +16,7 @@ const props = defineProps({
 
 const techLogos = ref([]);
 
+// api call from json file inside public folder
 onMounted(async () => {
   const res = await fetch("/data/techLogos.json");
   const data = await res.json();

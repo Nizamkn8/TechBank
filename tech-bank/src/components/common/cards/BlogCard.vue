@@ -1,3 +1,4 @@
+<!-- blog card in blog section -->
 <script setup>
 defineProps({
   blog: {

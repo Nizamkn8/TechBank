@@ -1,3 +1,4 @@
+// router configrations
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../pages/Home.vue";
 import Contact from "../pages/Contact.vue";

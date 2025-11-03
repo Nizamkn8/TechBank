@@ -1,3 +1,4 @@
+<!-- conatct us page -->
 <script setup>
 import ContactSection from '../components/sections/ContactSection.vue';
 

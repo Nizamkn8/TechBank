@@ -1,3 +1,4 @@
+<!-- common footer -->
 <script setup>
 import logo from "../../assets/img/logo.png";
 import BaseButton from '../common/buttons/BaseButton.vue';
@@ -25,7 +26,7 @@ const socialLinks = [
 
     <div class="site-footer-container container relative z-1">
       <div class="footer-header flex justify-between mb-7">
-        <img :src="logo" alt="footer-logo" class="w-[200px] h-[51px]">
+        <img :src="logo" alt="footer-logo" class="lg:w-[200px] lg:h-[51px] w-[134px] h-[34px] ">
         <span>hi@techbank.com</span>
       </div>
       <div
@@ -40,7 +41,7 @@ const socialLinks = [
         </div>
         <div
           class="footer-content-right flex md:gap-[87px] gap-[30px] md:justify-items-normal justify-between">
-          <ul class="flex flex-col lg:gap-7 gap-[15px]">
+          <ul class="flex flex-col lg:gap-7 gap-[15px] lg:text-[20px] text-[14px]">
             <li>Home</li>
             <li>Products</li>
             <li>Teams</li>
@@ -97,6 +98,12 @@ footer.site-footer {
   footer.site-footer {
     padding-top: 40px;
     padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer.site-footer {
+    padding-bottom: 50px;
   }
 }
 </style>

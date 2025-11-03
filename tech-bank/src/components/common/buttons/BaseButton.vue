@@ -1,3 +1,4 @@
+<!-- comon base button eg: in header -->
 <template>
   <button class="btn cursor-pointer
   rounded-[56px] py-[8.5px] px-[18.5px] bg-transparent

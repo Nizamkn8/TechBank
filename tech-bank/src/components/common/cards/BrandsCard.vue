@@ -1,3 +1,4 @@
+<!-- brands card in Our Connected Brands section -->
 <script setup>
 import SocialMedia from "../utils/SocialMedia.vue"
 
@@ -19,6 +20,6 @@ defineProps({
       </div>
     </div>
 
-    <img :src="team.logo" class="w-full mx-auto group-hover:scale-105 transition lg:h-[393px] h-[317px]  object-cover" />
+    <img :src="team.logo" class="w-full mx-auto group-hover:scale-105 transition lg:h-[393px] h-[317px]  object-contain" />
   </div>
 </template>

@@ -1,3 +1,4 @@
+<!-- product card in PRODUCTS section -->
 <script setup>
 import GradButton from '../buttons/GradButton.vue';
 
@@ -16,7 +17,7 @@ const props = defineProps({
 
 <template>
   <div
-    class="border border-[#D9D9D9] rounded-3xl p-[5px] lg:pb-10 pb-[21px] w-full  bg-black/40 backdrop-blur-lg hover:border-white transition duration-300">
+    class="border border-[#D9D9D9] rounded-3xl p-[5px] lg:p-3 lg:pb-10 pb-[21px] w-full  bg-black/40 backdrop-blur-lg hover:border-white transition duration-300">
     <div class="relative overflow-hidden rounded-tl-[20px] rounded-tr-[20px]">
       <img :src="image"
         class=" w-full object-cover max-w-full md:max-w-[566px] max-h-[315px] lg:h-[315px] h-[198px]" />

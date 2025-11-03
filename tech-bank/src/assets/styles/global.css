@@ -1,5 +1,5 @@
 
-
+/* global styles */
 @font-face {
   font-family: 'Ninetea';
   src: url('../fonts/Ninetea-Regular.woff2') format('woff2'),
@@ -60,6 +60,10 @@
 @media screen and (max-width: 1024px) {
   :root {
     --container-width: 990px;
+  }
+
+  .spacing-top-100 {
+    --pading-top-100: 60px;
   }
 }
 

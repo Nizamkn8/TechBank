@@ -1,8 +1,8 @@
+<!-- common reusable title and sub title -->
 <script setup>
 const props = defineProps({
   text: {
     type: String,
-    // required: true,
   },
   size: {
     type: String,
@@ -10,7 +10,6 @@ const props = defineProps({
   },
   subText: {
     type: String,
-    // required: ,
   },
   subTextSize: {
     type: String,
